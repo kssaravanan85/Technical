@@ -1,0 +1,7 @@
+const path = require('path')
+console.log(path.basename)
+console.log(__filename)
+console.log(__dirname)
+console.log(path.extname(__filename))
+console.log(path.join(__dirname,'kss','subkss','file.txt'))
+console.log(path.parse(__filename))
